@@ -13,6 +13,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Component
@@ -97,6 +98,7 @@ public class DucksRepository {
                 result.add(d);
             }
         }
+        Arrays.sort(result.toArray());
         return result;
     }
 

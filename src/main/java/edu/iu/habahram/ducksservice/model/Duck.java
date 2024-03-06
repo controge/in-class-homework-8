@@ -1,6 +1,6 @@
 package edu.iu.habahram.ducksservice.model;
 
-public abstract class Duck {
+public abstract class Duck{
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
@@ -54,4 +54,5 @@ public abstract class Duck {
     public void performQuack() {
         quackBehavior.quack();
     }
+
 }
